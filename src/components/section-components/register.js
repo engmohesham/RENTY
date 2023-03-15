@@ -105,7 +105,7 @@ class Register extends Component {
                         required
                       />
                       <input
-                        type="text"
+                        type="number"
                         name="number"
                         placeholder="Phone"
                         required

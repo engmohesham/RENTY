@@ -260,20 +260,20 @@ class Navbar extends Component {
             <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
               <ul>
                 <li>
-                  <Link to="/my-account" title="My Account">
+                  <Link to="/login" title="Sign in">
                     <span className="utilize-btn-icon">
                       <i className="far fa-user" />
                     </span>
-                    My Account
+                    Sign in
                   </Link>
                 </li>
                 <li>
-                  <Link to="/wishlist" title="Wishlist">
+                  <Link to="/register" title="Register">
                     <span className="utilize-btn-icon">
-                      <i className="far fa-heart" />
+                      <i className="far fa-user-plus" />
                       <sup>3</sup>
                     </span>
-                    Wishlist
+                    Register
                   </Link>
                 </li>
               </ul>
