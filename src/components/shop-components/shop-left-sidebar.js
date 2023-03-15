@@ -85,7 +85,6 @@ class ShopGridV1 extends Component {
                                       ] == ",")
                                   ) {
                                     evt.preventDefault();
-                                    evt.target.value = evt.target.value.replace(/[^0-9]/g, "")
                                   }
                                 }}
                               />

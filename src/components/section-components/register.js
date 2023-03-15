@@ -118,6 +118,9 @@ class Register extends Component {
                             evt.preventDefault();
                           }
                         }}
+                        oninput={
+                          (this.value = this.value.replace(/[^0-9]/g, ""))
+                        }
                       />
                       <input
                         type="password"
