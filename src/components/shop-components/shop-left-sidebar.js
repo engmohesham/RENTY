@@ -76,7 +76,7 @@ class ShopGridV1 extends Component {
                                 name="search"
                                 placeholder="Add location..."
                                 autoComplete="off"
-                                onKeyPress={function isCorrect(evt) {
+                                onKeyDown={function isCorrect(evt) {
                                   if (
                                     !evt.key.match(/[a-zA-Z0-9,]/) ||
                                     (evt.key == "," &&
