@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/RENTY/static/js/main.6e800edd.chunk.js",
+    "main.js.map": "/RENTY/static/js/main.6e800edd.chunk.js.map",
+    "runtime-main.js": "/RENTY/static/js/runtime-main.5c319202.js",
+    "runtime-main.js.map": "/RENTY/static/js/runtime-main.5c319202.js.map",
+    "static/js/2.26bf003f.chunk.js": "/RENTY/static/js/2.26bf003f.chunk.js",
+    "static/js/2.26bf003f.chunk.js.map": "/RENTY/static/js/2.26bf003f.chunk.js.map",
+    "index.html": "/RENTY/index.html",
+    "precache-manifest.2287af841efaeb139ac70348401ae6ab.js": "/RENTY/precache-manifest.2287af841efaeb139ac70348401ae6ab.js",
+    "service-worker.js": "/RENTY/service-worker.js",
+    "static/js/2.26bf003f.chunk.js.LICENSE.txt": "/RENTY/static/js/2.26bf003f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c319202.js",
+    "static/js/2.26bf003f.chunk.js",
+    "static/js/main.6e800edd.chunk.js"
+  ]
+}
