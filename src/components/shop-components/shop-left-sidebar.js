@@ -85,17 +85,7 @@ class ShopGridV1 extends Component {
                                       ] == ",")
                                   ) {
                                     evt.preventDefault();
-                                  }
-                                }}
-                                onChange={function isCorrect(evt) {
-                                  if (
-                                    !evt.key.match(/[a-zA-Z0-9,]/) ||
-                                    (evt.key == "," &&
-                                      evt.target.value[
-                                        evt.target.value.length - 1
-                                      ] == ",")
-                                  ) {
-                                    evt.preventDefault();
+                                    evt.target.value = evt.target.value.replace(/[^0-9]/g, "")
                                   }
                                 }}
                               />
