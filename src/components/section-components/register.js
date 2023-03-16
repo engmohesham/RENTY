@@ -111,16 +111,7 @@ class Register extends Component {
                         required
                         maxLength={11}
                         autoComplete="off"
-                        onKeyPress={function isnumber(evt) {
-                          var ch = String.fromCharCode(evt.which);
-
-                          if (!/[0-9]/.test(ch)) {
-                            evt.preventDefault();
-                          }
-                        }}
-                        oninput={
-                          (this.value = this.value.replace(/[^0-9]/g, ""))
-                        }
+                        
                       />
                       <input
                         type="password"
@@ -186,7 +177,7 @@ class Register extends Component {
                           </div>
                         </div>
                         <input
-                          type="text"
+                          type="number"
                           name="national"
                           placeholder="National ID*"
                           maxLength={14}
