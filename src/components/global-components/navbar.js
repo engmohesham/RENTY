@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Social from "../section-components/social";
+import Login from "./../section-components/login";
+import Register from "./../section-components/register";
 
 class Navbar extends Component {
   render() {
@@ -260,20 +262,19 @@ class Navbar extends Component {
             <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
               <ul>
                 <li>
-                  <Link to="/my-account" title="My Account">
+                  <Link to="/login" title="Sign in">
                     <span className="utilize-btn-icon">
-                      <i className="far fa-user" />
+                      <i className="fas fa-user" />
                     </span>
-                    My Account
+                    Sign in
                   </Link>
                 </li>
                 <li>
-                  <Link to="/wishlist" title="Wishlist">
+                  <Link to="/register" title="Register">
                     <span className="utilize-btn-icon">
-                      <i className="far fa-heart" />
-                      <sup>3</sup>
+                      <i className="fas fa-user-plus" />
                     </span>
-                    Wishlist
+                    Register
                   </Link>
                 </li>
               </ul>
