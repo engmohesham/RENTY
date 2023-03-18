@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e0c7d5518db09c427aa60d2a52070e7",
+    "revision": "919e9d1924af594359f5579e6e89db4b",
     "url": "/RENTY/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RENTY/static/js/2.26bf003f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9cffdd62ae7f8115698b",
-    "url": "/RENTY/static/js/main.6e800edd.chunk.js"
+    "revision": "7bfdd28f7ac0af2e5678",
+    "url": "/RENTY/static/js/main.2a855e2b.chunk.js"
   },
   {
     "revision": "1e30d9aba41b97fe9e61",
