@@ -272,7 +272,7 @@ class Navbar extends Component {
                 <li>
                   <Link to="/register" title="Register">
                     <span className="utilize-btn-icon">
-                      <i className="far fa-user-plus" />
+                      <i className="fas fa-user-plus" />
                       <sup>3</sup>
                     </span>
                     Register
