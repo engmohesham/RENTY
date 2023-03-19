@@ -40,6 +40,7 @@ class Register extends Component {
       },
     ];
 
+
     return (
       <div className="ltn__login-area pb-110 bg-overlay-black-70">
         <div className="container">
@@ -118,7 +119,7 @@ class Register extends Component {
                         //   }
                         // }}
 
-                        onKeyPress={function onlyNumbers(event) {
+                        onKeyPress={function onlyNumbers(event){
                           var e = event || window.event;
                           var key = e.keyCode || e.which;
                           if (key < 48 || key > 57) {
@@ -197,10 +198,9 @@ class Register extends Component {
                           autoComplete="off"
                           required
                           onKeyPress={function isnumber(evt) {
-                            if (evt.target.value.length >= 14) {
-                              evt.preventDefault();
+                            if(evt.target.value.length >= 14)           evt.preventDefault();
                             }
-                          }}
+                          }
                         />
                         <input
                           type="text"
