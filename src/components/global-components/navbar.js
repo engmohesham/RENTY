@@ -252,7 +252,7 @@ class Navbar extends Component {
                   <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <Link to="/login">Shop</Link>
+                  <Link to="/shop">Shop</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact</Link>
