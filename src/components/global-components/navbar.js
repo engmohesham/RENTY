@@ -124,7 +124,7 @@ class Navbar extends Component {
 								<li><Link to="/team-details">Team Details</Link></li> */}
                           </li>
                           <li>
-                            <Link to="/login">Shop</Link>
+                            <Link to="/shop">Shop</Link>
                           </li>
                           <li>
                             <Link to="/contact">Contact</Link>
